@@ -6,7 +6,7 @@ echo "laughingman"
 echo "hackingarise.com"
 echo place url :
 read url
-echo report 
+echo name report :
 read report
 
 golismero scan $url -o - -o /root/reports/$report.html
